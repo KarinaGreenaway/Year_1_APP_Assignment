@@ -1,0 +1,170 @@
+/*
+BASE STYLE
+*/
+body {
+	background-color: #370606;
+	margin: 15px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #ffffff;
+}
+
+* {
+	padding: 5px;
+}
+
+
+/*
+PADDING
+*/
+.section {
+	padding: 15px;
+}
+
+.header {
+	padding: 25px;
+	top: 40px;
+}
+
+
+/* 
+SEARCH BAR
+*/
+.search-bar {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: #2b0d0d;
+	border-radius: 5px;
+	border: 2px solid #cbbebe;
+	width: 300px;
+	height: 40px;
+	text-align: center;
+}
+
+.search {
+	position: relative;
+	top: 8px;
+}
+
+
+/*
+LINKS
+*/
+a:link {
+	color: #cbbebe;
+}
+
+a:visited {
+	color: #cbbebe;
+}
+
+a:hover {
+	color: white;
+}
+
+
+/*
+LISTS
+*/
+ol {
+	list-style: none;
+	background-color: #2f0e0e;
+	border: 2px solid #cbbebe;
+	border-radius: 5px;
+}
+
+
+/*
+ALL BOXES
+*/
+
+label {
+	display: inline-block;
+	width: 60px;
+	text-align: left;
+	float: left;
+
+}
+
+.entry-box {
+	background-color: #cbbebe;
+	width: 80%;
+	text-align: left;
+	float: left;
+}
+
+.label-entry-box-left {
+	float: left;
+	width: 100%;
+	padding-left: 40px;
+}
+
+.small-box {
+	width: 30%;
+}
+
+.medium-box {
+	width: 50%;
+}
+
+.entry-area-padding {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+/*
+BUTTONS
+*/
+
+.button {
+	position: relative;
+	background-color: #cbbebe;
+	padding: 10px;
+	text-align: center;
+	top: 15px;
+	width: 120px;
+}
+
+.button:hover {
+	background-color: white;
+}
+
+.button-padding {
+	position: relative;
+	margin: auto;
+	width: 100px;
+}
+
+#btnSaveBooks {
+	width: 140px;
+}
+
+/*
+CENTERING THINGS
+*/
+
+.header {
+	text-align: center;
+}
+
+.about-section {
+	text-align: center;
+}
+
+#bookList {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	padding: 15px;
+}
+
+.bottom-link {
+	text-align: center;
+}
+
+li {
+	text-align: center;
+}
